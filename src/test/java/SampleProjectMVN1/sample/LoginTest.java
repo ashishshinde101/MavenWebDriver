@@ -27,6 +27,7 @@ public class LoginTest {
 		driver.manage().timeouts().implicitlyWait(20L, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//*[@id='email']")).sendKeys("Ash22emplire");
 		driver.findElement(By.xpath("//*[@id='pass']")).sendKeys("Gotyabhai@101");
+		driver.findElement(By.xpath("//*[@id='u_0_2']")).click();
 		
 	}
 
